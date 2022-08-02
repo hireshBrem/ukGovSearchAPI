@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins';
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+    text-decoration-style: none;
+}
+.api-title{
+    margin:10px;
+    text-align: center;
+}
+.api-container{
+    background-color: purple;
+    transition: 700ms height ease-in-out;
+}
+
+.api-search-container{
+    background-color: purple;
+    display: inline-block;
+}
+
+#api-results-container{
+    background-color: purple;
+    padding: 10px;
+    border-top: 2px solid white;
+}
+
+#search-input{
+    margin: 20px;
+}
+.search-btn{
+    margin: 20px;
+}
+
+.api-result{
+    min-width: 100px;
+
+    background-color: plum;
+    margin: auto;
+    margin:5px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+

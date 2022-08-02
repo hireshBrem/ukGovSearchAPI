@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UK Gov API</title>
+    <link rel="stylesheet" href="govAPI.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h2 class="api-title">UK Government Search API</h2>
+    <div class="api-container">
+        <div class="api-search-container">
+            <input id="search-input" placeholder="Type topic" required>
+            <button class="search-btn" onclick="getResults()">Search</button>
+        </div>
+        <div id="api-results-container">
+        </div>
+    </div>
+    <script src="govAPI.js"></script>
+</body>
+</html>
